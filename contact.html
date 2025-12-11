@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Handi Crunch</title>
+   <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   <!-- Bootstrap  v5.3.0  CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+   </head>
+
+  <body>
+    <div class="Banner_Hero">
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+           <div class="row">
+              <div class="col-12">
+                 <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo.webp" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="overlay" style="display:none"></div>
+                    <div class="collapse navbar-collapse">
+                       <button class="navbar-toggler menuClose-icon" type="button">
+                          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                             <path d="M1.4 14L0 12.6L5.6 7L0 1.4L1.4 0L7 5.6L12.6 0L14 1.4L8.4 7L14 12.6L12.6 14L7 8.4L1.4 14Z" fill="black"/>
+                          </svg>
+                       </button>
+                       <ul class="navbar-nav ms-auto">
+                          <li class="nav-item"> <a class="nav-link" href="index.html">Home </a> </li>
+                          <li class="nav-item"> <a class="nav-link" href="javascript:void(0);">About </a> </li>
+                          <li class="nav-item"> <a class="nav-link" href="studios-service.html">Studios </a> </li>
+                          
+                       </ul>
+                       <div class="extra_nav">
+                          <ul class="navbar-nav ms-auto">
+                             <li class="nav-item"><a class="nav-link header_filled_btn" href="contact.html">Book Your Slot</a> </li>
+                          </ul>
+                       </div>
+                    </div>
+                 </nav>
+              </div>
+           </div>
+        </div>
+     </header>
+    <!-- Header End-->
+    
+        <div class="container">
+            <div class="banner_gap banner_gap_inner">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="banner_content text-center">
+                            <h1>Booking Form</h1>
+                            
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section-padding">
+      <div class="container">
+            
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-7">
+                
+
+               <div class="map_wrapper">
+                 <h4>Our Location</h4>
+                 <div class="map_box">
+                   
+          <iframe
+            src="https://www.google.com/maps?q=Jaipur,Rajasthan&output=embed"
+            loading="lazy"
+            allowfullscreen>
+        </iframe>
+                  </div>
+
+                  <div class="locaticon_address">
+                    <p class="mb-0 mt-3 address_div"><strong>Address</strong></p>
+                    <p> 4th Floor, Govind Vatika, 16A, 10 B Scheme, Usha Vihar, Triveni Nagar, Arjun Nagar, Jaipur, Rajasthan 302018</p>
+                  </div>
+               </div>
+
+               <div class="Contact_row">
+                   <div class="Contact_row_box">
+                     <img src="assets/img/telephone.avif" alt="">
+                      <h4>Call Now</h4>
+                   </div> 
+                   <div class="Contact_row_box">
+                    <img src="assets/img/whatsapp.avif" alt="">
+                      <h4>WhatsApp</h4>
+                   </div>
+                </div>
+
+            </div>
+            <div class="col-lg-5">
+                <form class="form_box_new">
+                    <div class="form_hd">
+                        <h4>Booking Now</h4>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                        <label for="floatingInput">Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="Phone" placeholder="Phone No.">
+                        <label for="Phone">Phone</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected>Select</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                        </select>
+                        <label for="floatingPassword">Studio Type</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="date" class="form-control" id="date" placeholder="Date">
+                        <label for="date">Date</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="time" class="form-control" id="time" placeholder="Time">
+                        <label for="time">Time</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="Duration" placeholder="Duration">
+                        <label for="Duration">Duration</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="Message"></textarea>
+                        <label for="Message">Message</label>
+                    </div>
+
+                    <div class="center_button"> <a class="theem_btn mt-4" href="javascript:void(0);">Book Now</a></div>
+                </form>
+            </div>
+        </div>
+                
+    </div>
+   </section>
+
+
+    
+
+   <section class="section-padding Our_Spaces">
+     <div class="container">
+        <div class="hd-center">
+          <h2><span>Frequently-Asked  </span> Questions</h2>
+        </div>
+
+  <div class="accordion custom_accordion mt-4" id="accordionExample">
+   <div class="accordion-item">
+      <h2 class="accordion-header">
+         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+         Q1. Which is the best podcast recording studio near me?
+         </button>
+      </h2>
+      <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+         <div class="accordion-body">
+            <div class="English_Course_Module">
+               <p>Ans. Handi Crunch Studio is the best podcasting recording studio in Jaipur. No matter where you reside, the studio is easily commutable, given its proximity to the city's major locations. The studio is situated near Mansarovar and is within walking distance of Riddhi Siddhi Circle/Gopalpura.</p>
+              
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="accordion-item">
+      <h2 class="accordion-header">
+         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+         Q2. What are the studio timings?
+         </button>
+      </h2>
+      <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+         <div class="accordion-body">
+            <div class="English_Course_Module">
+               <p>Ans. Handi Crunch Studio is operational throughout the week; you can reserve a slot and start recording hassle-free. However, if you wish to visit the studio, the timings are 10 am to 7 pm.</p>
+              
+            </div>
+         </div>
+      </div>
+   </div>
+
+      <div class="accordion-item">
+      <h2 class="accordion-header">
+         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+         Q3. Can I book the studio in advance?
+         </button>
+      </h2>
+      <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+         <div class="accordion-body">
+            <div class="English_Course_Module">
+               <p>Ans. Yes, and we recommend booking the studio 3-5 days prior so that the timings do not clash with other creators, especially when you want the studio on weekends.</p>
+              
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="accordion-item">
+      <h2 class="accordion-header">
+         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+         Q4. Do I need to pay an advance for booking the studio?
+         </button>
+      </h2>
+      <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+         <div class="accordion-body">
+            <div class="English_Course_Module">
+               <p>Ans. Yes, you need to pay half of the booking amount before reserving the slot. However, you can visit and assess the studio anytime.</p>
+              
+            </div>
+         </div>
+      </div>
+   </div>
+
+      <div class="accordion-item">
+      <h2 class="accordion-header">
+         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+         Q5. Do you provide multiple setups?
+         </button>
+      </h2>
+      <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+         <div class="accordion-body">
+            <div class="English_Course_Module">
+               <p>Ans. Yes, we currently provide 3 different setups, with different backdrops and ambiance.</p>
+              
+            </div>
+         </div>
+      </div>
+   </div>
+
+      <div class="accordion-item">
+      <h2 class="accordion-header">
+         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+         Q6. Can I customize the studio according to my brand’s outlook?
+         </button>
+      </h2>
+      <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+         <div class="accordion-body">
+            <div class="English_Course_Module">
+               <p>Ans. Yes, the studio can be fully customized depending on the kind of shoot you want. We have hosted multiple stand-up comedy shows and debates apart from podcasts in our studio.</p>
+              
+            </div>
+         </div>
+      </div>
+   </div>
+         <div class="accordion-item">
+      <h2 class="accordion-header">
+         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+         Q7. Do you provide editing and post-production services?
+         </button>
+      </h2>
+      <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+         <div class="accordion-body">
+            <div class="English_Course_Module">
+               <p>Ans. Yes, we are equipped with an expert editing team that will take care of the editing process. You will get ready-to-upload content through our post-production services.</p>
+              
+            </div>
+         </div>
+      </div>
+   </div>
+         <div class="accordion-item">
+      <h2 class="accordion-header">
+         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+          Q8. Do you also provide models and anchors for podcasts?
+         </button>
+      </h2>
+      <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+         <div class="accordion-body">
+            <div class="English_Course_Module">
+               <p>Ans. We have in-house fluent anchors and models that can help you streamline your podcast. Our hosts and models are professionally trained and understand the assignment.</p>
+              
+            </div>
+         </div>
+      </div>
+   </div>
+
+            <div class="accordion-item">
+      <h2 class="accordion-header">
+         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+          Q9. How much time does it take for you to produce the ready-to-upload content?
+         </button>
+      </h2>
+      <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+         <div class="accordion-body">
+            <div class="English_Course_Module">
+               <p>Ans. It takes 5-7 business days to work on a one-hour-long podcast. We will extract reels, shorts, and notable moments from the video. Moreover, if you want raw data, you can get it just after you are done with your shoot through a  (you need to bring your own storage device).</p>
+              
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+</div>
+
+     </div>
+   </section>
+
+   
+
+
+
+    <section class="section-padding Testimonials_Box">
+        <div class="container">
+            <div class="hd-center">
+              <h2>Testimonials</span></h2>
+            </div>
+       
+             <div class="row justify-content-center mt-4 testimonial-slider">
+
+                <div class="testimonial_block">
+                        <div class="testimonial_block_right"><img src="assets/img/testimonials_right-show.avif" alt=""></div>
+                        <div class="testimonial_block_icon"><img src="assets/img/testimonials_arrow.avif " alt=""></div>
+                      <p class="truncate-4"><span>“</span>It’s a great place for both beginners and professionals who want a comfortable and creative recording environment. Highly recommended for anyone looking for an affordable and high-quality studio in town!<span>”</span> Isha Goswami </p>
+                      <button class="read-more-btn">Read More</button>
+                      <h4>Isha Goswami</h4>
+                      <div class="star_rating">
+                        <img src="assets/img/star.avif" alt="">
+                        <img src="assets/img/star.avif" alt="">
+                        <img src="assets/img/star.avif" alt="">
+                        <img src="assets/img/star.avif" alt="">
+                        <img src="assets/img/star.avif" alt="">
+                      </div>
+                    </div>
+                
+                    <div class="testimonial_block">
+                        <div class="testimonial_block_right"><img src="assets/img/testimonials_right-show.avif" alt=""></div>
+                        <div class="testimonial_block_icon"><img src="assets/img/testimonials_arrow.avif " alt=""></div>
+                      <p class="truncate-4"><span>“</span>Excellent Studio Experience! I had a wonderful experience at HandiCrunch Podcast Rental Studio. The space is clean, well-equipped, and perfect for podcast recordings, video shoots, and content creation. The sound quality and lighting setup are excellent, and the staff is very professional and supportive throughout the session. <span>”</span></p>
+                      <button class="read-more-btn">Read More</button>
+                       <h4>Rakesh Rathod</h4>
+                      <div class="star_rating">
+                        <img src="assets/img/star.avif" alt="">
+                        <img src="assets/img/star.avif" alt="">
+                        <img src="assets/img/star.avif" alt="">
+                        <img src="assets/img/star.avif" alt="">
+                        <img src="assets/img/star.avif" alt="">
+                      </div>
+                    </div>
+                
+                    
+                
+                    <div class="testimonial_block">
+                        <div class="testimonial_block_right"><img src="assets/img/testimonials_right-show.avif" alt=""></div>
+                        <div class="testimonial_block_icon"><img src="assets/img/testimonials_arrow.avif " alt=""></div>
+                      <p class="truncate-4"><span>“</span>Have personally recorded in the studio, the services are great, especially the staff, they all are very welcoming. The equipments are top-notch and lighting in the studio is great. The people responsible help you throughout the recording session, plus it’s cheap as well, I paid only 2k for an hour which is value for money. I highly recommend the space for any kind or recording purpose. P.S. you will love the bookshelf, along with other aesthetics in the studio.<span>”</span> </p>
+                      <button class="read-more-btn">Read More</button>
+                      <h4>Saad Abbasi</h4>
+                      <div class="star_rating">
+                        <img src="assets/img/star.avif" alt="">
+                        <img src="assets/img/star.avif" alt="">
+                        <img src="assets/img/star.avif" alt="">
+                        <img src="assets/img/star.avif" alt="">
+                      </div>
+                    </div>
+                
+             </div>
+        </div>
+    </section>
+
+
+    <div class="container">
+        <div class="center_btn">
+            <h4>Ready to Record Your Best Episode?</h4>
+            <div class="center_btn_new"><a href="javascript:void(0);">Book your session </a></div>
+        </div>
+    </div>
+
+<footer class="footer_wrapper footer_wrapper_alwar pt-5">
+  <div class="container">
+    <div class="row pb-4 ">
+    
+
+      <div class="col-lg-12 logocenter">
+         <div class="footer_logo_row_img">
+                <img src="assets/img/footer-logo.avif" alt="">
+            </div>
+      </div>
+      <div class="col-lg-5 col-md-5 col-sm-8">
+        <div class="footer_logo_row">
+            <div class="footer-hd">
+                <h4>Address</h4>
+            </div>
+            <div class="footer_logo_row_address">
+                <div class="footer-address-img">
+                  <img src="assets/img/location.avif" alt="">
+                </div>
+                <div class="footer-address-text">
+                <span>4th Floor, Govind Vatika, 16A, 10 B Scheme, Usha Vihar, Triveni Nagar, Arjun Nagar, Jaipur, Rajasthan 302018</span>
+                </div>
+            </div>
+
+            <div class="footer_logo_row_address">
+                <div class="footer-address-img">
+                  <img src="assets/img/mail.avif" alt="">
+                </div>
+                <div class="footer-address-text">
+                <span><strong>Email ID </strong> <a href="javascript:void(0);">HandiCrunch@gmail.com</a></span>
+                </div>
+            </div>
+
+            <div class="footer_logo_row_address">
+                <div class="footer-address-img">
+                  <img src="assets/img/phone.avif" alt="">
+                </div>
+                <div class="footer-address-text">
+                <span><strong>Phone No. </strong> <a href="javascript:void(0);">8975682497</a></span>
+                </div>
+            </div>
+            
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-sm-4">
+        <div class="footer_logo_row">
+            <div class="footer-hd">
+                <h4>Important Links</h4>
+            </div>
+            <ul class="footer_links">
+                <li><a href="javascript:void(0);">Home</a></li>
+                <li><a href="javascript:void(0);">About</a></li>
+                <li><a href="javascript:void(0);">Studios</a></li>
+            </ul>
+
+            
+            
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-8">
+        <div class="footer_logo_row">
+            <div class="footer-hd">
+                <h4>Social Media Link</h4>
+                <p>Connect with us on social media for updates, announcements, and more. Follow us to stay informed and engaged.</p>
+            </div>
+            <div class="social_link">
+            <a href="javascript:void(0);">  <img src="assets/img/instagram.avif" alt="">  </a>
+             <a href="javascript:void(0);">  <img src="assets/img/youtube.avif" alt="">  </a>
+              <a href="javascript:void(0);">  <img src="assets/img/facebook.avif" alt="">  </a>
+               <a href="javascript:void(0);">  <img src="assets/img/linkedin.avif" alt="">  </a>
+                <a href="javascript:void(0);">  <img src="assets/img/whatsapp-2.avif" alt="">  </a>
+            
+          </div>
+
+            
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="copyright">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-12"> <span> Copyright © 2025. <span class="inner_text">HandiCrunch</span> All Rights Reserved. </span> </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+    <!-- <footer>
+        <div class="copyright">
+            <div class="container">
+              <div class="row align-items-center">
+               
+                <div class="col-sm-12">
+                  <span>Copyright ©2025. <a href="javascript:void(0);" class="inner_text">Handicrunch </a> All Rights Reserved.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+    </footer> -->
+    
+    <!-- Bottom To Top Icon -->
+    <a href="javascript:void(0)" id="top-button" class="back_top">
+        <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" fill="none">
+                <mask id="mask0_511_55" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                    <rect x="0.5" y="0.25" width="24" height="24" fill="currentColor" />
+                </mask>
+                <g mask="url(#mask0_511_55)">
+                    <path d="M11.5 22.25V6.075L6.9 10.65L5.5 9.25L12.5 2.25L19.5 9.25L18.1 10.675L13.5 6.075V22.25H11.5Z" fill="currentColor" />
+                </g>
+            </svg>
+        </span>
+     </a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!-- Bootstrap v5.3.0  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper 10.0.3 -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <!-- <script src="js/bootstrap.bundle.min.js"></script>     -->
+    <script src="assets/js/script.js"></script>
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;"> <symbol id="call" viewBox="0 0 384 384"> <title>call</title> <path d="M353.188,252.052c-23.51,0-46.594-3.677-68.469-10.906c-10.719-3.656-23.896-0.302-30.438,6.417l-43.177,32.594 c-50.073-26.729-80.917-57.563-107.281-107.26l31.635-42.052c8.219-8.208,11.167-20.198,7.635-31.448 c-7.26-21.99-10.948-45.063-10.948-68.583C132.146,13.823,118.323,0,101.333,0H30.813C13.823,0,0,13.823,0,30.813 C0,225.563,158.438,384,353.188,384c16.99,0,30.813-13.823,30.813-30.813v-70.323C384,265.875,370.177,252.052,353.188,252.052z"/></symbol> </svg>
+</body>
+
+
+
+</html>
+
